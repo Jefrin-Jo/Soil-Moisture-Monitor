@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4A0CCE2AFDE88E0069D884 /* Soil_moisture_monitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A0CCD2AFDE88E0069D884 /* Soil_moisture_monitorApp.swift */; };
+		ED4A0CD02AFDE88E0069D884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A0CCF2AFDE88E0069D884 /* ContentView.swift */; };
+		ED4A0CD22AFDE88F0069D884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4A0CD12AFDE88F0069D884 /* Assets.xcassets */; };
+		ED4A0CD62AFDE88F0069D884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4A0CD52AFDE88F0069D884 /* Preview Assets.xcassets */; };
+		ED4A0CE02AFDE88F0069D884 /* Soil_moisture_monitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A0CDF2AFDE88F0069D884 /* Soil_moisture_monitorTests.swift */; };
+		ED4A0CEA2AFDE88F0069D884 /* Soil_moisture_monitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A0CE92AFDE88F0069D884 /* Soil_moisture_monitorUITests.swift */; };
+		ED4A0CEC2AFDE88F0069D884 /* Soil_moisture_monitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A0CEB2AFDE88F0069D884 /* Soil_moisture_monitorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4A0CDC2AFDE88F0069D884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4A0CC22AFDE88E0069D884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4A0CC92AFDE88E0069D884;
+			remoteInfo = "Soil moisture monitor";
+		};
+		ED4A0CE62AFDE88F0069D884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4A0CC22AFDE88E0069D884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4A0CC92AFDE88E0069D884;
+			remoteInfo = "Soil moisture monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4A0CCA2AFDE88E0069D884 /* Soil moisture monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soil moisture monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4A0CCD2AFDE88E0069D884 /* Soil_moisture_monitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soil_moisture_monitorApp.swift; sourceTree = "<group>"; };
+		ED4A0CCF2AFDE88E0069D884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED4A0CD12AFDE88F0069D884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4A0CD32AFDE88F0069D884 /* Soil_moisture_monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soil_moisture_monitor.entitlements; sourceTree = "<group>"; };
+		ED4A0CD52AFDE88F0069D884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED4A0CDB2AFDE88F0069D884 /* Soil moisture monitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soil moisture monitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4A0CDF2AFDE88F0069D884 /* Soil_moisture_monitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soil_moisture_monitorTests.swift; sourceTree = "<group>"; };
+		ED4A0CE52AFDE88F0069D884 /* Soil moisture monitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soil moisture monitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4A0CE92AFDE88F0069D884 /* Soil_moisture_monitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soil_moisture_monitorUITests.swift; sourceTree = "<group>"; };
+		ED4A0CEB2AFDE88F0069D884 /* Soil_moisture_monitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soil_moisture_monitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4A0CC72AFDE88E0069D884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CD82AFDE88F0069D884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CE22AFDE88F0069D884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4A0CC12AFDE88E0069D884 = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CCC2AFDE88E0069D884 /* Soil moisture monitor */,
+				ED4A0CDE2AFDE88F0069D884 /* Soil moisture monitorTests */,
+				ED4A0CE82AFDE88F0069D884 /* Soil moisture monitorUITests */,
+				ED4A0CCB2AFDE88E0069D884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4A0CCB2AFDE88E0069D884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CCA2AFDE88E0069D884 /* Soil moisture monitor.app */,
+				ED4A0CDB2AFDE88F0069D884 /* Soil moisture monitorTests.xctest */,
+				ED4A0CE52AFDE88F0069D884 /* Soil moisture monitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4A0CCC2AFDE88E0069D884 /* Soil moisture monitor */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CCD2AFDE88E0069D884 /* Soil_moisture_monitorApp.swift */,
+				ED4A0CCF2AFDE88E0069D884 /* ContentView.swift */,
+				ED4A0CD12AFDE88F0069D884 /* Assets.xcassets */,
+				ED4A0CD32AFDE88F0069D884 /* Soil_moisture_monitor.entitlements */,
+				ED4A0CD42AFDE88F0069D884 /* Preview Content */,
+			);
+			path = "Soil moisture monitor";
+			sourceTree = "<group>";
+		};
+		ED4A0CD42AFDE88F0069D884 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CD52AFDE88F0069D884 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED4A0CDE2AFDE88F0069D884 /* Soil moisture monitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CDF2AFDE88F0069D884 /* Soil_moisture_monitorTests.swift */,
+			);
+			path = "Soil moisture monitorTests";
+			sourceTree = "<group>";
+		};
+		ED4A0CE82AFDE88F0069D884 /* Soil moisture monitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A0CE92AFDE88F0069D884 /* Soil_moisture_monitorUITests.swift */,
+				ED4A0CEB2AFDE88F0069D884 /* Soil_moisture_monitorUITestsLaunchTests.swift */,
+			);
+			path = "Soil moisture monitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4A0CC92AFDE88E0069D884 /* Soil moisture monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4A0CEF2AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitor" */;
+			buildPhases = (
+				ED4A0CC62AFDE88E0069D884 /* Sources */,
+				ED4A0CC72AFDE88E0069D884 /* Frameworks */,
+				ED4A0CC82AFDE88E0069D884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soil moisture monitor";
+			productName = "Soil moisture monitor";
+			productReference = ED4A0CCA2AFDE88E0069D884 /* Soil moisture monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4A0CDA2AFDE88F0069D884 /* Soil moisture monitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4A0CF22AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitorTests" */;
+			buildPhases = (
+				ED4A0CD72AFDE88F0069D884 /* Sources */,
+				ED4A0CD82AFDE88F0069D884 /* Frameworks */,
+				ED4A0CD92AFDE88F0069D884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4A0CDD2AFDE88F0069D884 /* PBXTargetDependency */,
+			);
+			name = "Soil moisture monitorTests";
+			productName = "Soil moisture monitorTests";
+			productReference = ED4A0CDB2AFDE88F0069D884 /* Soil moisture monitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4A0CE42AFDE88F0069D884 /* Soil moisture monitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4A0CF52AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitorUITests" */;
+			buildPhases = (
+				ED4A0CE12AFDE88F0069D884 /* Sources */,
+				ED4A0CE22AFDE88F0069D884 /* Frameworks */,
+				ED4A0CE32AFDE88F0069D884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4A0CE72AFDE88F0069D884 /* PBXTargetDependency */,
+			);
+			name = "Soil moisture monitorUITests";
+			productName = "Soil moisture monitorUITests";
+			productReference = ED4A0CE52AFDE88F0069D884 /* Soil moisture monitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4A0CC22AFDE88E0069D884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED4A0CC92AFDE88E0069D884 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ED4A0CDA2AFDE88F0069D884 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED4A0CC92AFDE88E0069D884;
+					};
+					ED4A0CE42AFDE88F0069D884 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED4A0CC92AFDE88E0069D884;
+					};
+				};
+			};
+			buildConfigurationList = ED4A0CC52AFDE88E0069D884 /* Build configuration list for PBXProject "Soil moisture monitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4A0CC12AFDE88E0069D884;
+			productRefGroup = ED4A0CCB2AFDE88E0069D884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4A0CC92AFDE88E0069D884 /* Soil moisture monitor */,
+				ED4A0CDA2AFDE88F0069D884 /* Soil moisture monitorTests */,
+				ED4A0CE42AFDE88F0069D884 /* Soil moisture monitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4A0CC82AFDE88E0069D884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4A0CD62AFDE88F0069D884 /* Preview Assets.xcassets in Resources */,
+				ED4A0CD22AFDE88F0069D884 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CD92AFDE88F0069D884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CE32AFDE88F0069D884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4A0CC62AFDE88E0069D884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4A0CD02AFDE88E0069D884 /* ContentView.swift in Sources */,
+				ED4A0CCE2AFDE88E0069D884 /* Soil_moisture_monitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CD72AFDE88F0069D884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4A0CE02AFDE88F0069D884 /* Soil_moisture_monitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A0CE12AFDE88F0069D884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4A0CEC2AFDE88F0069D884 /* Soil_moisture_monitorUITestsLaunchTests.swift in Sources */,
+				ED4A0CEA2AFDE88F0069D884 /* Soil_moisture_monitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4A0CDD2AFDE88F0069D884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4A0CC92AFDE88E0069D884 /* Soil moisture monitor */;
+			targetProxy = ED4A0CDC2AFDE88F0069D884 /* PBXContainerItemProxy */;
+		};
+		ED4A0CE72AFDE88F0069D884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4A0CC92AFDE88E0069D884 /* Soil moisture monitor */;
+			targetProxy = ED4A0CE62AFDE88F0069D884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED4A0CED2AFDE88F0069D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4A0CEE2AFDE88F0069D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED4A0CF02AFDE88F0069D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Soil moisture monitor/Soil_moisture_monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soil moisture monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4A0CF12AFDE88F0069D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Soil moisture monitor/Soil_moisture_monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soil moisture monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED4A0CF32AFDE88F0069D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soil moisture monitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soil moisture monitor";
+			};
+			name = Debug;
+		};
+		ED4A0CF42AFDE88F0069D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soil moisture monitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soil moisture monitor";
+			};
+			name = Release;
+		};
+		ED4A0CF62AFDE88F0069D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soil moisture monitor";
+			};
+			name = Debug;
+		};
+		ED4A0CF72AFDE88F0069D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Soil-moisture-monitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soil moisture monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4A0CC52AFDE88E0069D884 /* Build configuration list for PBXProject "Soil moisture monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4A0CED2AFDE88F0069D884 /* Debug */,
+				ED4A0CEE2AFDE88F0069D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4A0CEF2AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4A0CF02AFDE88F0069D884 /* Debug */,
+				ED4A0CF12AFDE88F0069D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4A0CF22AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4A0CF32AFDE88F0069D884 /* Debug */,
+				ED4A0CF42AFDE88F0069D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4A0CF52AFDE88F0069D884 /* Build configuration list for PBXNativeTarget "Soil moisture monitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4A0CF62AFDE88F0069D884 /* Debug */,
+				ED4A0CF72AFDE88F0069D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4A0CC22AFDE88E0069D884 /* Project object */;
+}
